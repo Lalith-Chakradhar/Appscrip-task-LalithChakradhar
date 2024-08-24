@@ -1,0 +1,31 @@
+.filterContainer{
+    width: Fixed (300px)px;
+    height: Hug (1,018px)px;
+    top: 652px;
+    left: 96px;
+    gap: 24px;
+}
+
+.customCheckboxContainer{
+    height: 44px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.customCheckbox{
+    height: 22px;
+}
+
+.checkboxText{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .filterContainer{
+        display: none;
+    }
+    
+}

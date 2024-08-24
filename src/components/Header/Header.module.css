@@ -1,0 +1,43 @@
+ .headerContainer{
+    height: 220px;
+    width: auto;
+}
+
+.thumbnailTextContainer{
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+}
+
+.thumbnailMain{
+    display: flex;
+    align-items: center;
+    width: Hug (138px)px;
+    height: Hug (16px)px;
+    gap: 10px;
+}
+
+.thumbnailOptional{
+    display: flex;
+    align-items: center;
+    width: Hug (138px)px;
+    height: Hug (16px)px;
+    gap: 10px;
+}
+
+.thumbnailText{
+    color: #EB4C6B;
+}
+
+/* Hide extra instances on small screens */
+@media (max-width: 768px) {
+    .thumbnailOptional {
+      display: none;
+    }
+
+    .headerContainer{
+        height: 70px;
+        width: auto;
+    }
+}

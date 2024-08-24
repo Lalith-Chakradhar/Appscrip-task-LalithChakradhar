@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('../../assets/fonts/ACaslonPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.mainContainer{
+    padding: 0rem 6rem;
+}
+
+.heroText{
+    height: 30%;
+    margin: 80px 0px;
+}
+
+.heroHeading{
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.heroParagraph{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    height: 80px;
+}
+
+
+.filterBar{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    align-items: center;
+    position: relative;
+}
+.toggleFilters{
+    margin-right: 50%;
+    font-family: 'Adobe Caslon Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:#888792;
+    cursor: pointer;
+
+}
+
+.gridContainer{
+    padding: 50px 0px;
+}
+
+.productGridAndFilters {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 16px;
+}
+
+.compressedProductGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 16px;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 16px;
+}
+
+
+.dropdownButton{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    font-family:'Simplon Norm' ;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.dropdownButton img {
+    margin-left: 8px;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 100%; 
+    right: 0.8%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    height: 200px;
+    width: max-content;
+    padding: 15px 0;
+    z-index: 1000; 
+}
+
+.dropdownItem {
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 18px;
+}
+
+.dropdownItem img {
+    margin-right: 8px; 
+}
+ 
+
+.dropdownItem strong {
+    font-weight: bold;
+}
+
+.mobileFilterBar{
+    height: 41px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.mobileDropdownMenu{
+    position: absolute;
+    top: 46%; 
+    right: 10%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 5px 0;
+    border-radius: 4px;
+    height: 200px;
+    width: max-content;
+    z-index: 1000; 
+}
+
+@media (max-width: 768px) {
+
+    .heroText{
+        padding: 0px 10px;
+        margin: 30px 0 ;
+        margin-top: 50px;
+    }
+
+    .gridContainer{
+        padding: 0px 20px;
+    }
+
+    .compressedProductGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 2px;
+    }
+    
+    .productGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+        gap: 2px;
+    }
+
+    .filterBar {
+        display: none;
+    }
+
+    .heroHeading{
+        font-size: 2rem;
+    }
+    
+    .heroParagraph{
+        font-size: 1rem;
+    }
+
+    .mainContainer{
+        padding: 0rem 0rem;
+    }
+}

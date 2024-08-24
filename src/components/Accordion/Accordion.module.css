@@ -1,0 +1,31 @@
+.container {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+    cursor: pointer;
+  }
+  
+  .accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .arrow {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    color: aliceblue;
+  }
+  
+  .arrowOpen  {
+    transform: rotate(180deg);
+  }
+  
+  .accordionOptions {
+    margin-top: 10px;
+  }
+  
+  .iconSection{
+    display: flex;
+    gap: 10px;
+  }
+  

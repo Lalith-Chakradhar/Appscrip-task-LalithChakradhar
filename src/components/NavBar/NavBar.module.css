@@ -1,0 +1,116 @@
+.navContainer{
+    width: auto;
+    height: 188px;
+    top: 32px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E5E5E5
+}
+
+.navTop{
+    height: 44px;
+    padding: 36px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navTitle{
+    font-family: inter;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-left: 200px;
+}
+
+.navSettings{
+    gap: 24px;
+    display: flex;
+    cursor: pointer;
+}
+
+.Lang{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.navigationMenu{
+    width: Hug (636px)px;
+    height: Hug (24px)px;
+    padding: 0 27%;
+    top: 140px;
+    gap: 64px;
+    opacity: 0px;
+}
+
+.navigationMenuList{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigationMenuListItem{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .Lang {
+      display: none;
+    }
+
+    .navigationMenu{
+        display: none;
+    }
+
+    .navContainer{
+        width: inherit;
+        height: inherit;
+        top: 32px;
+        background: #FFFFFF;
+        border-bottom: 1px solid #E5E5E5
+    }
+
+    .navTop{
+        height: 20px;
+        width: auto;
+        padding: 25px 10px 0px 10px;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navTitle{
+        font-family: inter;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: 20%;
+    }
+
+    .showComponent{
+        display: none;
+    }
+
+    .navLogo img{
+        height: inherit;
+        width: inherit;
+    }
+
+    .navSettings{
+        display: block;
+        margin-right: 5px;
+    }
+
+    .navSettings img {
+        margin: 0px 5px;
+    }
+}

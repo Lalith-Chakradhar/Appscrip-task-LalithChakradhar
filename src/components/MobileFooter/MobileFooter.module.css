@@ -1,0 +1,50 @@
+.footerContainer{
+    color: white;
+    background-color: black;
+    width: auto;
+    padding: 16px;
+}
+
+.subSection {
+    border-bottom: 1px solid white;
+}
+
+.paymentModes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subSectionText {
+    display: flex;
+    align-items: center;
+    gap:7px;
+}
+ 
+.emailBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.emailInput{
+    height: 48px;
+    width: 226px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #BFC8CD;
+}
+
+.subscribeButton {
+    width: 109px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1.14px solid white;
+    background-color: black;
+    color: white;
+    opacity: 0.3px;
+}
+
+.copyright{
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+.filterTypeContainer{
+    height: 74px;
+    border-bottom: 1px solid #E5E5E5;
+    transition: height 0.3s ease;
+    padding-top: 20px;
+}
+
+.filterTypeContainerExpanded{
+    height: auto;
+    border-bottom: 1px solid #E5E5E5;
+    transition: height 0.3s ease;
+    padding: 20px 0px;
+}
+
+.titleText{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.allText{
+font-size: 18px;
+font-weight: 400;
+}
+
+.expandedFilters{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.unselectAll{
+width: fit-content;
+cursor: pointer;
+font-size: 16px;
+font-weight: 400;
+color: #BFC8CD;
+}

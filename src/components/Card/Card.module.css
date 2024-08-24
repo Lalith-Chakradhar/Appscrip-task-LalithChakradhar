@@ -1,0 +1,91 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 260px;
+    height: 462px;
+    overflow: hidden;
+}
+
+ 
+.productImageContainer{
+    width: 100%;
+    height: 0;
+    padding-top: 85%;
+    position: relative;
+}
+
+.productImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.productSubTextContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.productSubText{
+    width: 4fr;
+  color: #888792;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.likeButtonStyle{
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.likeButtonStyle:hover {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 768px) {
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+        width: 10rem;
+        height: 18rem;
+        overflow: hidden;
+    }
+
+    .cardContextContainer{
+        display: block;
+    }
+
+     .productName{
+        font-size: 60%;
+     }
+
+     .productSubTextContainer{
+        width: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 2px; 
+    }
+    
+     .productSubText{
+        font-size: 0.6rem;
+        margin: auto;
+     }
+
+     .likeButtonStyle{
+        position: relative;
+        width: 14px;
+        height: 14px;
+        left: 0px;
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+  }
