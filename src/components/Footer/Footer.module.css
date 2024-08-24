@@ -87,34 +87,3 @@
 .transactionStatement{
     font-size: 12px;
 }
-
-/* @media (max-width: 768px) {
-    .footerContainer{
-        padding: 10px;
-        background-color: black;
-        color: white;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .sectionContainer{
-        display: block;
-    }
-
-    .sectionContainerBottom{
-        display: flex;
-        justify-content: space-between;
-        height: 317px;
-        margin-top:50px;
-    }
-    
-    .subSectionTop{
-        width: auto;
-    }
-
-    .subSectionBottom{
-        width: auto;
-        margin-top: 100px;
-    }
-} */
